@@ -1,0 +1,9 @@
+print(""); print("Alan Steven Martinez Fernandez: 0795"); print("")
+print("coloca un numero entero para sacarle factorial");print("")#separa y da una instruccion
+n=int(input("coloca el numero"));print("")#define como int separa hace posible modificar la variable y dice cuando es posible modificarla
+f=1;i=1# asigna a "f" y "i" el valor de 1
+while i!=n: #se repetira el programa mientras i sea mayor o igual a 1
+    f=f*i# "f" es igual a (f*i)
+    i=i+1# "i" es igual a (1+1)
+print("el factorial de "+str(n)+" es "+str(f))#cambia a n y f por str para evita un herror y imprime el resultado
+![image](https://github.com/user-attachments/assets/6012c6a8-5ac4-46fc-b564-f7f6a4297945)
